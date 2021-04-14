@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="index__module--header">
+        <hgroup >
+        <h1><span>Test</span> <span>Your</span> <span>Skills</span></h1>
+        </hgroup>
       </header>
+      <div className="index__module--navigation">
+        <p>Test your skills with an increasing levels of challenge</p>
+        <p>This page is a collection of ReactJS challenge's. At is core, 
+          we see JavaScript lying at the bottom, and thats good. Leave
+          a thumbs up if you like it.
+        </p>
+
+      </div>
+
+
     </div>
   );
 }
